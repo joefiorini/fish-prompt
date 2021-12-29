@@ -12,7 +12,7 @@ function fish_right_prompt
 
   if git_is_repo
     set_color green
-    printf '%s' (__fish_git_prompt)
+    printf '%s' (fish_vcs_prompt)
     set_color normal
   end
 end
